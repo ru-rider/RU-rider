@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "RN Tredar",
+    "slug": "ru-rider-07",
+    "owner": "ru-rider-07",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "RNTredar",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.trading.tredar"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#0A0E1A"
+      },
+      "package": "com.trading.tredar",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55402176-f0b3-4deb-8a7d-a5b9c8d6bca8"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Chart images scan karayla gallery access lagto.",
+          "cameraPermission": false
+        }
+      ]
+    ]
+  }
+}
