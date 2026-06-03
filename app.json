@@ -7,18 +7,21 @@
     "icon": "./assets/icon.png",
     "scheme": "rntredar",
     "userInterfaceStyle": "dark",
+
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.trading.tredar"
     },
+
     "android": {
       "package": "com.trading.tredar",
-      "versionCode": 1,
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0A0E1A"
       }
     },
+
     "extra": {
       "eas": {
         "projectId": "653dfb16-2677-40ff-bab6-448f045d62dc"
